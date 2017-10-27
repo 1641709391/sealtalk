@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/jianzhiTitle"
+            android:text="这是标题"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/jianzhishijian"
+            android:layout_marginLeft="60dp"
+            android:text="2017/10/02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:text="这是内容"
+        android:textSize="16sp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="0.04"
+        android:id="@+id/jianzhineirong" />
+
+</LinearLayout>
